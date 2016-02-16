@@ -1,0 +1,16 @@
+<ion-view class="" title="Suggestions List" hide-back-button="false" cache-view="false" hide-nav-bar="false">
+      <ion-content padding="false">        
+        <ion-list>
+            <a ng-repeat="idea in ideas" 
+                ui-sref="app.details({ideaId: idea.id})"
+                class="item acct-list-item item-avatar item-icon-right item-a-idea"> 
+                    <img src="img/{{idea.img}}">                
+                    <!--<button class="button button-fab button-balanced icon ion-leaf"></button>-->
+                    <h2 class="item-acct-title karla">{{idea.title}}</h2>                  
+                    <p class="merriweather">{{idea.description}}</p>                            <p class="merriweather by">By: {{idea.contact}}</p>                
+                    <h2 class="item-score">{{idea.score}}</h2>          
+                    <i class="icon cust-ion-ios-stars"></i>
+            </a>            
+        </ion-list>  
+      </ion-content>
+</ion-view>

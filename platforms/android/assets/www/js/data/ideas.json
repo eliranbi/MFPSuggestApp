@@ -1,0 +1,42 @@
+[
+  {
+    "id": "80",
+    "title": "Client Snapshot Mobile App",
+    "description": "We could use an app that shows a quick snapshot of a specific client I’m about to meet. Show me relevant client notes, corporate market data, integrated with my calendar.",
+    "score": 254,
+    "contact": "John Polaroid",
+    "img": "material2.jpg"
+  },
+  {
+    "id": "81",
+    "title": "Remove client financial forms 33-S and 35-R",
+    "description": "These forms are antiquated and are no longer necessary. Let’s eliminate the red tape.",
+    "score": 178,
+    "contact": "Michelle Paperless",
+    "img": "material1.jpg"
+  },
+  {
+    "id": "82",
+    "title": "Webinar for our Tax clients",
+    "description": "Set up a webinar series focused on the Common Reporting Standard. CRS is critical for our top tier clients and we could really get great attendance",
+    "score": 145,
+    "contact": "Giulio W. Ebcast",
+    "img": "material4.jpg"  
+  },
+  {
+    "id": "83",
+    "title": "CyberRisk Alert System",
+    "description": "Set up a repository of known cyber security threats and let clients register to receive updates and alerts in real-time",
+    "score": 122,
+    "contact": "Marco Securitas",
+    "img": "material3.jpg"  
+  },
+  {
+    "id": "84",
+    "title": "Give clients a searchable Deloitte M&A Index app",
+    "description": "If clients have dynamic, easily searchable access to our M&A Index, they will likely leverage it more in the field. Mobilize it and they will come.",
+    "score": 102,
+    "contact": "Xi Ma",
+    "img": "material1.jpg"  
+  }
+]

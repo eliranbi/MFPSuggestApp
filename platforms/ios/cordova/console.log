@@ -1,0 +1,663 @@
+2016-01-29 11:28:27.477 SuggestApp[3507:116843] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/F0632B6D-CEDA-4E7E-B939-F99D2D09C66F/Library/Cookies/Cookies.binarycookies
+2016-01-29 11:28:27.662 SuggestApp[3507:116843] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2016-01-29 11:28:27.686 SuggestApp[3507:116843] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 11:28:27.772 SuggestApp[3507:116843] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 11:28:27.797 SuggestApp[3507:116843] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7c15f030>.
+2016-01-29 11:28:27.799 SuggestApp[3507:116965] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2016-01-29 11:28:27.815 SuggestApp[3507:116965] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:69 :: {
+    "application id" = "com_ibm_SuggestApp";
+    "application version" = "1.0.0";
+    buildtime = 1454084887432;
+    environment = iphone;
+    host = "10.0.1.5";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/MobileFirstStarter/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "+rNCPnRLTr3lqiFfzvYQnA==";
+}
+2016-01-29 11:28:27.838 SuggestApp[3507:116965] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2016-01-29 11:28:27.851 SuggestApp[3507:116965] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2016-01-29 11:28:28.286 SuggestApp[3507:116843] Apache Cordova native platform version 3.7.0 is starting.
+2016-01-29 11:28:28.286 SuggestApp[3507:116843] Multi-tasking -> Device: YES, App: YES
+2016-01-29 11:28:28.296 SuggestApp[3507:116843] Unlimited access to network resources
+2016-01-29 11:28:28.311 SuggestApp[3507:116843] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-29 11:28:28.430 SuggestApp[3507:116843] [CDVTimer][wlapp] 0.494003ms
+2016-01-29 11:28:28.430 SuggestApp[3507:116843] [CDVTimer][push] 0.360966ms
+2016-01-29 11:28:28.430 SuggestApp[3507:116843] [CDVTimer][TotalPluginStartup] 1.145959ms
+2016-01-29 11:28:29.153 SuggestApp[3507:116843] Resetting plugins due to page load.
+2016-01-29 11:28:30.043 SuggestApp[3507:116843] Finished load of: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Bundle/Application/AA03783A-DFC3-48C6-A254-04D02437F270/SuggestApp.app/www/index.html#/app/splash
+2016-01-29 11:28:38.058 SuggestApp[3507:116843] THREAD WARNING: ['WLApp'] took '10.678955' ms. Plugin should use a background thread.
+2016-01-29 11:28:38.065 SuggestApp[3507:116843] log1
+2016-01-29 11:28:38.092 SuggestApp[3507:117156] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/08/06 20:32:27
+2016-01-29 11:28:38.300 SuggestApp[3507:117200] [DEBUG] [NONE] ondeviceready event dispatched
+2016-01-29 11:28:38.318 SuggestApp[3507:117157] [DEBUG] [NONE] wlclient init started
+2016-01-29 11:28:38.321 SuggestApp[3507:117201] [DEBUG] [NONE] CookieMgr read cookies: {}
+2016-01-29 11:28:38.324 SuggestApp[3507:116958] [DEBUG] [NONE] Read cookies: null
+2016-01-29 11:28:38.328 SuggestApp[3507:117206] [DEBUG] [NONE] added onPause and onResume event handlers
+2016-01-29 11:28:38.331 SuggestApp[3507:117207] [DEBUG] [NONE] wlclient init success
+2016-01-29 11:28:38.334 SuggestApp[3507:117156] [DEBUG] [NONE] before: initOptions.onSuccess
+2016-01-29 11:28:38.337 SuggestApp[3507:117203] [DEBUG] [NONE] after: initOptions.onSuccess
+2016-01-29 11:28:38.341 SuggestApp[3507:117208] [FATAL] [NONE] Uncaught Exception: Error: [ng:btstrpd] App Already Bootstrapped with this Element '&lt;body ng-app="starter" class="wl_ios7" style="display: block;"&gt;'
+http://errors.angularjs.org/1.4.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-app%3D%22starter%22%20class%3D%22wl_ios7%22%20style%3D%22display%3A%20block%3B%22%26gt%3B at (compiled_code):10446
+2016-01-29 11:32:27.821 SuggestApp[4059:121321] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/C5457EAF-92D3-4511-91BE-AE67027B041E/Library/Cookies/Cookies.binarycookies
+2016-01-29 11:32:27.879 SuggestApp[4059:121321] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2016-01-29 11:32:27.896 SuggestApp[4059:121321] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 11:32:27.969 SuggestApp[4059:121332] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2016-01-29 11:32:27.977 SuggestApp[4059:121332] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:69 :: {
+    "application id" = "com_ibm_SuggestApp";
+    "application version" = "1.0.0";
+    buildtime = 1454085137824;
+    environment = iphone;
+    host = "10.0.1.5";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/MobileFirstStarter/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "+rNCPnRLTr3lqiFfzvYQnA==";
+}
+2016-01-29 11:32:28.005 SuggestApp[4059:121321] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 11:32:28.010 SuggestApp[4059:121332] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2016-01-29 11:32:28.021 SuggestApp[4059:121321] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7a896790>.
+2016-01-29 11:32:28.047 SuggestApp[4059:121332] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2016-01-29 11:32:28.243 SuggestApp[4059:121321] Apache Cordova native platform version 3.7.0 is starting.
+2016-01-29 11:32:28.244 SuggestApp[4059:121321] Multi-tasking -> Device: YES, App: YES
+2016-01-29 11:32:28.245 SuggestApp[4059:121321] Unlimited access to network resources
+2016-01-29 11:32:28.261 SuggestApp[4059:121321] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-29 11:32:28.261 SuggestApp[4059:121321] Restoring old webstorage backup. From: '/Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/C5457EAF-92D3-4511-91BE-AE67027B041E/Library/Caches/file__0.localstorage' To: '/Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/C5457EAF-92D3-4511-91BE-AE67027B041E/Library/WebKit/LocalStorage/file__0.localstorage'.
+2016-01-29 11:32:28.262 SuggestApp[4059:121321] Removing old webstorage backup: '/Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/C5457EAF-92D3-4511-91BE-AE67027B041E/Library/Caches/file__0.localstorage'.
+2016-01-29 11:32:28.382 SuggestApp[4059:121321] [CDVTimer][wlapp] 0.070989ms
+2016-01-29 11:32:28.382 SuggestApp[4059:121321] [CDVTimer][push] 0.046968ms
+2016-01-29 11:32:28.382 SuggestApp[4059:121321] [CDVTimer][TotalPluginStartup] 0.346005ms
+2016-01-29 11:32:28.401 SuggestApp[4059:121321] Resetting plugins due to page load.
+2016-01-29 11:32:28.649 SuggestApp[4059:121321] Finished load of: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Bundle/Application/222C4FCB-40C1-4EDC-B6F9-84799BAD943B/SuggestApp.app/www/index.html#/app/splash
+2016-01-29 11:32:37.051 SuggestApp[4059:121321] log1
+2016-01-29 11:32:37.074 SuggestApp[4059:121323] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/08/06 20:32:27
+2016-01-29 11:32:37.269 SuggestApp[4059:121481] [DEBUG] [NONE] ondeviceready event dispatched
+2016-01-29 11:32:37.276 SuggestApp[4059:121479] [DEBUG] [NONE] wlclient init started
+2016-01-29 11:32:37.280 SuggestApp[4059:121477] [DEBUG] [NONE] CookieMgr read cookies: {}
+2016-01-29 11:32:37.283 SuggestApp[4059:121324] [DEBUG] [NONE] Read cookies: null
+2016-01-29 11:32:37.287 SuggestApp[4059:121323] [DEBUG] [NONE] before: initOptions.onSuccess
+2016-01-29 11:32:37.290 SuggestApp[4059:121480] [DEBUG] [NONE] after: initOptions.onSuccess
+2016-01-29 11:32:37.293 SuggestApp[4059:121483] [DEBUG] [NONE] added onPause and onResume event handlers
+2016-01-29 11:32:37.296 SuggestApp[4059:121484] [DEBUG] [NONE] wlclient init success
+2016-01-29 11:32:37.300 SuggestApp[4059:121485] [FATAL] [NONE] Uncaught Exception: Error: [ng:btstrpd] App Already Bootstrapped with this Element '&lt;body ng-app="starter" class="wl_ios7 grade-a platform-webview platform-cordova platform-ios platform-ios8 platform-ios8_1" style="display: block;"&gt;'
+http://errors.angularjs.org/1.4.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-app%3D%22starter%22%20class%3D%22wl_ios7%20grade-a%20platform-webview%20platform-cordova%20platform-ios%20platform-ios8%20platform-ios8_1%22%20style%3D%22display%3A%20block%3B%22%26gt%3B at (compiled_code):10446
+2016-01-29 11:41:43.408 SuggestApp[4634:128618] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/4F419631-CF9F-4B4E-8070-C4242854C285/Library/Cookies/Cookies.binarycookies
+2016-01-29 11:41:43.465 SuggestApp[4634:128618] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2016-01-29 11:41:43.477 SuggestApp[4634:128618] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 11:41:43.513 SuggestApp[4634:128618] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 11:41:43.534 SuggestApp[4634:128618] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7c096490>.
+2016-01-29 11:41:43.546 SuggestApp[4634:128638] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2016-01-29 11:41:43.559 SuggestApp[4634:128638] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:69 :: {
+    "application id" = "com_ibm_SuggestApp";
+    "application version" = "1.0.0";
+    buildtime = 1454085696696;
+    environment = iphone;
+    host = "10.0.1.5";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/MobileFirstStarter/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "+rNCPnRLTr3lqiFfzvYQnA==";
+}
+2016-01-29 11:41:43.596 SuggestApp[4634:128638] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2016-01-29 11:41:43.607 SuggestApp[4634:128638] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2016-01-29 11:41:43.794 SuggestApp[4634:128618] Apache Cordova native platform version 3.7.0 is starting.
+2016-01-29 11:41:43.794 SuggestApp[4634:128618] Multi-tasking -> Device: YES, App: YES
+2016-01-29 11:41:43.795 SuggestApp[4634:128618] Unlimited access to network resources
+2016-01-29 11:41:43.811 SuggestApp[4634:128618] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-29 11:41:43.945 SuggestApp[4634:128618] [CDVTimer][wlapp] 0.056982ms
+2016-01-29 11:41:43.945 SuggestApp[4634:128618] [CDVTimer][push] 0.043988ms
+2016-01-29 11:41:43.946 SuggestApp[4634:128618] [CDVTimer][TotalPluginStartup] 0.384986ms
+2016-01-29 11:41:43.958 SuggestApp[4634:128618] Resetting plugins due to page load.
+2016-01-29 11:41:44.200 SuggestApp[4634:128618] Finished load of: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Bundle/Application/50ECCD7D-BE27-4F01-9A22-0ACF2AC204E2/SuggestApp.app/www/index.html#/app/splash
+2016-01-29 11:41:53.030 SuggestApp[4634:128618] THREAD WARNING: ['WLApp'] took '10.389160' ms. Plugin should use a background thread.
+2016-01-29 11:41:53.036 SuggestApp[4634:128618] log1
+2016-01-29 11:41:53.058 SuggestApp[4634:128633] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/08/06 20:32:27
+2016-01-29 11:41:53.098 SuggestApp[4634:128633] [DEBUG] [NONE] ondeviceready event dispatched
+2016-01-29 11:41:53.113 SuggestApp[4634:128632] [DEBUG] [NONE] wlclient init started
+2016-01-29 11:41:53.117 SuggestApp[4634:128631] [DEBUG] [NONE] Read cookies: null
+2016-01-29 11:41:53.120 SuggestApp[4634:128648] [DEBUG] [NONE] CookieMgr read cookies: {}
+2016-01-29 11:41:53.123 SuggestApp[4634:128772] [DEBUG] [NONE] before: initOptions.onSuccess
+2016-01-29 11:41:53.126 SuggestApp[4634:128773] [DEBUG] [NONE] after: initOptions.onSuccess
+2016-01-29 11:41:53.129 SuggestApp[4634:128774] [DEBUG] [NONE] added onPause and onResume event handlers
+2016-01-29 11:41:53.132 SuggestApp[4634:128775] [DEBUG] [NONE] wlclient init success
+2016-01-29 11:41:53.135 SuggestApp[4634:128776] [FATAL] [NONE] Uncaught Exception: Error: [ng:btstrpd] App Already Bootstrapped with this Element '&lt;body ng-app="starter" class="wl_ios7" style="display: block;"&gt;'
+http://errors.angularjs.org/1.4.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-app%3D%22starter%22%20class%3D%22wl_ios7%22%20style%3D%22display%3A%20block%3B%22%26gt%3B at (compiled_code):10446
+2016-01-29 11:42:45.255 SuggestApp[5128:130516] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/14B8745D-F871-4340-84AD-86AE7A55DC34/Library/Cookies/Cookies.binarycookies
+2016-01-29 11:42:45.312 SuggestApp[5128:130516] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2016-01-29 11:42:45.329 SuggestApp[5128:130516] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 11:42:45.399 SuggestApp[5128:130524] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2016-01-29 11:42:45.406 SuggestApp[5128:130524] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:69 :: {
+    "application id" = "com_ibm_SuggestApp";
+    "application version" = "1.0.0";
+    buildtime = 1454085755149;
+    environment = iphone;
+    host = "10.0.1.5";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/MobileFirstStarter/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "+rNCPnRLTr3lqiFfzvYQnA==";
+}
+2016-01-29 11:42:45.434 SuggestApp[5128:130524] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2016-01-29 11:42:45.439 SuggestApp[5128:130516] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 11:42:45.449 SuggestApp[5128:130524] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2016-01-29 11:42:45.458 SuggestApp[5128:130516] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7a6bb4e0>.
+2016-01-29 11:42:45.663 SuggestApp[5128:130516] Apache Cordova native platform version 3.7.0 is starting.
+2016-01-29 11:42:45.663 SuggestApp[5128:130516] Multi-tasking -> Device: YES, App: YES
+2016-01-29 11:42:45.664 SuggestApp[5128:130516] Unlimited access to network resources
+2016-01-29 11:42:45.681 SuggestApp[5128:130516] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-29 11:42:45.799 SuggestApp[5128:130516] [CDVTimer][wlapp] 0.078976ms
+2016-01-29 11:42:45.799 SuggestApp[5128:130516] [CDVTimer][push] 0.033975ms
+2016-01-29 11:42:45.799 SuggestApp[5128:130516] [CDVTimer][TotalPluginStartup] 0.357032ms
+2016-01-29 11:42:45.819 SuggestApp[5128:130516] Resetting plugins due to page load.
+2016-01-29 11:42:46.065 SuggestApp[5128:130516] Finished load of: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Bundle/Application/DBCE98A1-E030-4EF9-9421-4776495FD036/SuggestApp.app/www/index.html#/app/splash
+2016-01-29 11:42:47.027 SuggestApp[5128:130516] Running static_app_props.js
+2016-01-29 11:42:47.074 SuggestApp[5128:130516] Calling WL.Client.init(wlInitOptions);
+2016-01-29 11:42:48.036 SuggestApp[5128:130516] THREAD WARNING: ['WLApp'] took '11.203125' ms. Plugin should use a background thread.
+2016-01-29 11:42:48.042 SuggestApp[5128:130516] log1
+2016-01-29 11:42:48.060 SuggestApp[5128:130516] >> MobileFirst Client SDK Initilized ...
+2016-01-29 11:42:48.063 SuggestApp[5128:130519] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/08/06 20:32:27
+2016-01-29 11:42:48.264 SuggestApp[5128:130519] [DEBUG] [NONE] wlclient init started
+2016-01-29 11:42:48.272 SuggestApp[5128:130518] [DEBUG] [NONE] CookieMgr read cookies: {}
+2016-01-29 11:42:48.278 SuggestApp[5128:130520] [DEBUG] [NONE] Read cookies: null
+2016-01-29 11:42:48.282 SuggestApp[5128:130521] [DEBUG] [NONE] ondeviceready event dispatched
+2016-01-29 11:42:48.285 SuggestApp[5128:130540] [DEBUG] [NONE] before: initOptions.onSuccess
+2016-01-29 11:42:48.289 SuggestApp[5128:130615] [DEBUG] [NONE] after: initOptions.onSuccess
+2016-01-29 11:42:48.292 SuggestApp[5128:130616] [DEBUG] [NONE] added onPause and onResume event handlers
+2016-01-29 11:42:48.295 SuggestApp[5128:130617] [DEBUG] [NONE] wlclient init success
+2016-01-29 11:42:48.298 SuggestApp[5128:130613] [FATAL] [NONE] Uncaught Exception: Error: [ng:btstrpd] App Already Bootstrapped with this Element '&lt;body ng-app="starter" class="wl_ios7" style="display: block;"&gt;'
+http://errors.angularjs.org/1.4.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-app%3D%22starter%22%20class%3D%22wl_ios7%22%20style%3D%22display%3A%20block%3B%22%26gt%3B at (compiled_code):10446
+2016-01-29 11:42:53.202 SuggestApp[5128:130516] >> SplashCtrl - doShowLogin() ... 
+2016-01-29 11:42:53.731 SuggestApp[5128:130516] >>> showLogin ... 
+2016-01-29 11:45:12.050 SuggestApp[5660:133789] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/823794FC-36AB-4131-882D-03D96B69ED78/Library/Cookies/Cookies.binarycookies
+2016-01-29 11:45:12.107 SuggestApp[5660:133789] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2016-01-29 11:45:12.123 SuggestApp[5660:133789] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 11:45:12.203 SuggestApp[5660:133798] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2016-01-29 11:45:12.210 SuggestApp[5660:133798] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:69 :: {
+    "application id" = "com_ibm_SuggestApp";
+    "application version" = "1.0.0";
+    buildtime = 1454085901689;
+    environment = iphone;
+    host = "10.0.1.5";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/MobileFirstStarter/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "+rNCPnRLTr3lqiFfzvYQnA==";
+}
+2016-01-29 11:45:12.239 SuggestApp[5660:133798] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2016-01-29 11:45:12.243 SuggestApp[5660:133789] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 11:45:12.253 SuggestApp[5660:133798] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2016-01-29 11:45:12.262 SuggestApp[5660:133789] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7a6ae730>.
+2016-01-29 11:45:12.467 SuggestApp[5660:133789] Apache Cordova native platform version 3.7.0 is starting.
+2016-01-29 11:45:12.467 SuggestApp[5660:133789] Multi-tasking -> Device: YES, App: YES
+2016-01-29 11:45:12.468 SuggestApp[5660:133789] Unlimited access to network resources
+2016-01-29 11:45:12.485 SuggestApp[5660:133789] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-29 11:45:12.611 SuggestApp[5660:133789] [CDVTimer][wlapp] 0.079036ms
+2016-01-29 11:45:12.612 SuggestApp[5660:133789] [CDVTimer][push] 0.054002ms
+2016-01-29 11:45:12.612 SuggestApp[5660:133789] [CDVTimer][TotalPluginStartup] 0.383973ms
+2016-01-29 11:45:12.631 SuggestApp[5660:133789] Resetting plugins due to page load.
+2016-01-29 11:45:12.875 SuggestApp[5660:133789] Finished load of: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Bundle/Application/A5CB4FFF-7331-434B-8239-F04AF4F528D8/SuggestApp.app/www/index.html#/app/splash
+2016-01-29 11:45:21.023 SuggestApp[5660:133789] THREAD WARNING: ['WLApp'] took '10.113037' ms. Plugin should use a background thread.
+2016-01-29 11:45:21.029 SuggestApp[5660:133789] log1
+2016-01-29 11:45:21.050 SuggestApp[5660:133800] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/08/06 20:32:27
+2016-01-29 11:45:21.246 SuggestApp[5660:133924] [DEBUG] [NONE] ondeviceready event dispatched
+2016-01-29 11:45:21.262 SuggestApp[5660:133800] [DEBUG] [NONE] CookieMgr read cookies: {}
+2016-01-29 11:45:21.266 SuggestApp[5660:133925] [DEBUG] [NONE] wlclient init started
+2016-01-29 11:45:21.269 SuggestApp[5660:133927] [DEBUG] [NONE] Read cookies: null
+2016-01-29 11:45:21.273 SuggestApp[5660:133791] [DEBUG] [NONE] before: initOptions.onSuccess
+2016-01-29 11:45:21.276 SuggestApp[5660:133792] [DEBUG] [NONE] after: initOptions.onSuccess
+2016-01-29 11:45:21.279 SuggestApp[5660:133935] [DEBUG] [NONE] added onPause and onResume event handlers
+2016-01-29 11:45:21.283 SuggestApp[5660:133936] [DEBUG] [NONE] wlclient init success
+2016-01-29 11:45:21.286 SuggestApp[5660:133937] [FATAL] [NONE] Uncaught Exception: Error: [ng:btstrpd] App Already Bootstrapped with this Element '&lt;body ng-app="starter" class="wl_ios7 grade-a platform-webview platform-cordova platform-ios platform-ios8 platform-ios8_1" style="display: block;"&gt;'
+http://errors.angularjs.org/1.4.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-app%3D%22starter%22%20class%3D%22wl_ios7%20grade-a%20platform-webview%20platform-cordova%20platform-ios%20platform-ios8%20platform-ios8_1%22%20style%3D%22display%3A%20block%3B%22%26gt%3B at (compiled_code):10446
+2016-01-29 11:45:48.341 SuggestApp[5660:134272] [DEBUG] [NONE] Flush called
+2016-01-29 11:45:57.060 SuggestApp[5660:134299] [DEBUG] [NONE] Flush called
+2016-01-29 12:21:50.682 SuggestApp[6806:162315] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/A5981DB0-B4B2-444E-A9C3-3361D7D3ADD7/Library/Cookies/Cookies.binarycookies
+2016-01-29 12:21:50.740 SuggestApp[6806:162315] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2016-01-29 12:21:50.757 SuggestApp[6806:162315] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 12:21:50.839 SuggestApp[6806:162342] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2016-01-29 12:21:50.847 SuggestApp[6806:162342] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:69 :: {
+    "application id" = "com_ibm_SuggestApp";
+    "application version" = "1.0.0";
+    buildtime = 1454088103589;
+    environment = iphone;
+    host = "10.0.1.5";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/MobileFirstStarter/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "+rNCPnRLTr3lqiFfzvYQnA==";
+}
+2016-01-29 12:21:50.874 SuggestApp[6806:162315] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 12:21:50.887 SuggestApp[6806:162342] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2016-01-29 12:21:50.892 SuggestApp[6806:162315] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7c82b4e0>.
+2016-01-29 12:21:50.914 SuggestApp[6806:162342] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2016-01-29 12:21:51.115 SuggestApp[6806:162315] Apache Cordova native platform version 3.7.0 is starting.
+2016-01-29 12:21:51.115 SuggestApp[6806:162315] Multi-tasking -> Device: YES, App: YES
+2016-01-29 12:21:51.117 SuggestApp[6806:162315] Unlimited access to network resources
+2016-01-29 12:21:51.132 SuggestApp[6806:162315] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-29 12:21:51.263 SuggestApp[6806:162315] [CDVTimer][wlapp] 0.087023ms
+2016-01-29 12:21:51.264 SuggestApp[6806:162315] [CDVTimer][push] 0.036001ms
+2016-01-29 12:21:51.264 SuggestApp[6806:162315] [CDVTimer][TotalPluginStartup] 0.337005ms
+2016-01-29 12:21:51.282 SuggestApp[6806:162315] Resetting plugins due to page load.
+2016-01-29 12:21:51.537 SuggestApp[6806:162315] Finished load of: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Bundle/Application/7609C424-35F0-4684-9803-274118FF8C7F/SuggestApp.app/www/index.html#/app/splash
+2016-01-29 12:21:59.957 SuggestApp[6806:162315] THREAD WARNING: ['WLApp'] took '11.671143' ms. Plugin should use a background thread.
+2016-01-29 12:21:59.964 SuggestApp[6806:162315] log1
+2016-01-29 12:21:59.985 SuggestApp[6806:162332] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/08/06 20:32:27
+2016-01-29 12:22:00.188 SuggestApp[6806:162332] [DEBUG] [NONE] ondeviceready event dispatched
+2016-01-29 12:22:00.203 SuggestApp[6806:162348] [DEBUG] [NONE] wlclient init started
+2016-01-29 12:22:00.206 SuggestApp[6806:162592] [DEBUG] [NONE] Read cookies: null
+2016-01-29 12:22:00.209 SuggestApp[6806:162590] [DEBUG] [NONE] CookieMgr read cookies: {}
+2016-01-29 12:22:00.213 SuggestApp[6806:162589] [DEBUG] [NONE] before: initOptions.onSuccess
+2016-01-29 12:22:00.216 SuggestApp[6806:162591] [DEBUG] [NONE] after: initOptions.onSuccess
+2016-01-29 12:22:00.220 SuggestApp[6806:162600] [DEBUG] [NONE] added onPause and onResume event handlers
+2016-01-29 12:22:00.223 SuggestApp[6806:162601] [DEBUG] [NONE] wlclient init success
+2016-01-29 12:22:00.227 SuggestApp[6806:162602] [FATAL] [NONE] Uncaught Exception: Error: [ng:btstrpd] App Already Bootstrapped with this Element '&lt;body ng-app="starter" class="wl_ios7 grade-a platform-webview platform-cordova platform-ios platform-ios8 platform-ios8_1" style="display: block;"&gt;'
+http://errors.angularjs.org/1.4.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-app%3D%22starter%22%20class%3D%22wl_ios7%20grade-a%20platform-webview%20platform-cordova%20platform-ios%20platform-ios8%20platform-ios8_1%22%20style%3D%22display%3A%20block%3B%22%26gt%3B at (compiled_code):10446
+2016-01-29 12:29:21.583 SuggestApp[7409:170113] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/530048BA-22D5-43B5-A60C-54388F281084/Library/Cookies/Cookies.binarycookies
+2016-01-29 12:29:21.650 SuggestApp[7409:170113] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2016-01-29 12:29:21.671 SuggestApp[7409:170113] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 12:29:21.743 SuggestApp[7409:170127] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2016-01-29 12:29:21.757 SuggestApp[7409:170127] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:69 :: {
+    "application id" = "com_ibm_SuggestApp";
+    "application version" = "1.0.0";
+    buildtime = 1454088550354;
+    environment = iphone;
+    host = "10.0.1.5";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/MobileFirstStarter/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "+rNCPnRLTr3lqiFfzvYQnA==";
+}
+2016-01-29 12:29:21.777 SuggestApp[7409:170113] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 12:29:21.794 SuggestApp[7409:170127] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2016-01-29 12:29:21.796 SuggestApp[7409:170113] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7aa654e0>.
+2016-01-29 12:29:21.817 SuggestApp[7409:170127] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2016-01-29 12:29:22.022 SuggestApp[7409:170113] Apache Cordova native platform version 3.7.0 is starting.
+2016-01-29 12:29:22.022 SuggestApp[7409:170113] Multi-tasking -> Device: YES, App: YES
+2016-01-29 12:29:22.023 SuggestApp[7409:170113] Unlimited access to network resources
+2016-01-29 12:29:22.040 SuggestApp[7409:170113] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-29 12:29:22.169 SuggestApp[7409:170113] [CDVTimer][wlapp] 0.131011ms
+2016-01-29 12:29:22.169 SuggestApp[7409:170113] [CDVTimer][push] 0.064015ms
+2016-01-29 12:29:22.169 SuggestApp[7409:170113] [CDVTimer][TotalPluginStartup] 0.500977ms
+2016-01-29 12:29:22.193 SuggestApp[7409:170113] Resetting plugins due to page load.
+2016-01-29 12:29:22.463 SuggestApp[7409:170113] Finished load of: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Bundle/Application/E774EFBB-41BD-4765-8987-66740CA9B6CA/SuggestApp.app/www/index.html#/app/splash
+2016-01-29 12:29:30.940 SuggestApp[7409:170113] THREAD WARNING: ['WLApp'] took '11.058838' ms. Plugin should use a background thread.
+2016-01-29 12:29:30.947 SuggestApp[7409:170113] log1
+2016-01-29 12:29:30.971 SuggestApp[7409:170115] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/08/06 20:32:27
+2016-01-29 12:29:31.183 SuggestApp[7409:170513] [DEBUG] [NONE] ondeviceready event dispatched
+2016-01-29 12:29:31.202 SuggestApp[7409:170512] [DEBUG] [NONE] wlclient init started
+2016-01-29 12:29:31.206 SuggestApp[7409:170509] [DEBUG] [NONE] before: initOptions.onSuccess
+2016-01-29 12:29:31.210 SuggestApp[7409:170115] [DEBUG] [NONE] CookieMgr read cookies: {}
+2016-01-29 12:29:31.214 SuggestApp[7409:170510] [DEBUG] [NONE] after: initOptions.onSuccess
+2016-01-29 12:29:31.217 SuggestApp[7409:170511] [DEBUG] [NONE] Read cookies: null
+2016-01-29 12:29:31.222 SuggestApp[7409:170516] [DEBUG] [NONE] added onPause and onResume event handlers
+2016-01-29 12:29:31.226 SuggestApp[7409:170517] [DEBUG] [NONE] wlclient init success
+2016-01-29 12:29:31.229 SuggestApp[7409:170518] [FATAL] [NONE] Uncaught Exception: Error: [ng:btstrpd] App Already Bootstrapped with this Element '&lt;body ng-app="starter" class="wl_ios7 grade-a platform-webview platform-cordova platform-ios platform-ios8 platform-ios8_1" style="display: block;"&gt;'
+http://errors.angularjs.org/1.4.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-app%3D%22starter%22%20class%3D%22wl_ios7%20grade-a%20platform-webview%20platform-cordova%20platform-ios%20platform-ios8%20platform-ios8_1%22%20style%3D%22display%3A%20block%3B%22%26gt%3B at (compiled_code):10446
+2016-01-29 12:30:36.137 SuggestApp[7907:173047] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/30729702-CAD6-4AD8-8B5B-9C3F4A2CC893/Library/Cookies/Cookies.binarycookies
+2016-01-29 12:30:36.201 SuggestApp[7907:173047] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2016-01-29 12:30:36.219 SuggestApp[7907:173047] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 12:30:36.276 SuggestApp[7907:173047] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 12:30:36.292 SuggestApp[7907:173059] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2016-01-29 12:30:36.302 SuggestApp[7907:173047] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x78e3e920>.
+2016-01-29 12:30:36.309 SuggestApp[7907:173059] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:69 :: {
+    "application id" = "com_ibm_SuggestApp";
+    "application version" = "1.0.0";
+    buildtime = 1454088624905;
+    environment = iphone;
+    host = "10.0.1.5";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/MobileFirstStarter/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "+rNCPnRLTr3lqiFfzvYQnA==";
+}
+2016-01-29 12:30:36.334 SuggestApp[7907:173059] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2016-01-29 12:30:36.347 SuggestApp[7907:173059] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2016-01-29 12:30:36.553 SuggestApp[7907:173047] Apache Cordova native platform version 3.7.0 is starting.
+2016-01-29 12:30:36.553 SuggestApp[7907:173047] Multi-tasking -> Device: YES, App: YES
+2016-01-29 12:30:36.554 SuggestApp[7907:173047] Unlimited access to network resources
+2016-01-29 12:30:36.571 SuggestApp[7907:173047] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-29 12:30:36.699 SuggestApp[7907:173047] [CDVTimer][wlapp] 0.059962ms
+2016-01-29 12:30:36.699 SuggestApp[7907:173047] [CDVTimer][push] 0.034988ms
+2016-01-29 12:30:36.699 SuggestApp[7907:173047] [CDVTimer][TotalPluginStartup] 0.308990ms
+2016-01-29 12:30:36.715 SuggestApp[7907:173047] Resetting plugins due to page load.
+2016-01-29 12:30:36.967 SuggestApp[7907:173047] Finished load of: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Bundle/Application/75DBC2DC-D4BC-4AFA-BC81-208474527DA1/SuggestApp.app/www/index.html#/app/splash
+2016-01-29 12:30:37.938 SuggestApp[7907:173047] Running static_app_props.js
+2016-01-29 12:30:37.990 SuggestApp[7907:173047] Calling WL.Client.init(wlInitOptions);
+2016-01-29 12:30:38.948 SuggestApp[7907:173047] log1
+2016-01-29 12:30:38.966 SuggestApp[7907:173047] >> MobileFirst Client SDK Initilized ...
+2016-01-29 12:30:38.970 SuggestApp[7907:173053] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/08/06 20:32:27
+2016-01-29 12:30:39.188 SuggestApp[7907:173071] [DEBUG] [NONE] Read cookies: null
+2016-01-29 12:30:39.197 SuggestApp[7907:173053] [DEBUG] [NONE] CookieMgr read cookies: {}
+2016-01-29 12:30:39.202 SuggestApp[7907:173051] [DEBUG] [NONE] wlclient init started
+2016-01-29 12:30:39.206 SuggestApp[7907:173109] [DEBUG] [NONE] before: initOptions.onSuccess
+2016-01-29 12:30:39.210 SuggestApp[7907:173110] [DEBUG] [NONE] added onPause and onResume event handlers
+2016-01-29 12:30:39.214 SuggestApp[7907:173107] [DEBUG] [NONE] ondeviceready event dispatched
+2016-01-29 12:30:39.217 SuggestApp[7907:173052] [DEBUG] [NONE] after: initOptions.onSuccess
+2016-01-29 12:30:39.220 SuggestApp[7907:173111] [DEBUG] [NONE] wlclient init success
+2016-01-29 12:30:39.224 SuggestApp[7907:173108] [FATAL] [NONE] Uncaught Exception: Error: [ng:btstrpd] App Already Bootstrapped with this Element '&lt;body ng-app="starter" class="wl_ios7" style="display: block;"&gt;'
+http://errors.angularjs.org/1.4.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-app%3D%22starter%22%20class%3D%22wl_ios7%22%20style%3D%22display%3A%20block%3B%22%26gt%3B at (compiled_code):10446
+2016-01-29 12:30:42.589 SuggestApp[7907:173047] >> SplashCtrl - doShowLogin() ... 
+2016-01-29 12:30:43.109 SuggestApp[7907:173047] >>> showLogin ... 
+2016-01-29 12:30:44.551 SuggestApp[7907:173047] >> SplashCtrl - doLogin() ... 
+2016-01-29 12:30:44.551 SuggestApp[7907:173047] >> loginCtrl - $scope.user:undefined
+2016-01-29 12:30:44.551 SuggestApp[7907:173047] >>> in MainCtrl ...
+2016-01-29 12:30:46.534 SuggestApp[7907:173047] >>> in MainCtrl - doExplore ...
+2016-01-29 12:30:46.534 SuggestApp[7907:173047] >> in SuggestService ...
+2016-01-29 12:30:46.534 SuggestApp[7907:173047] >>> in ExploreCtrl ...:undefined
+2016-01-29 12:30:46.701 SuggestApp[7907:173047] >> getIdeasList():[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29 12:30:46.701 SuggestApp[7907:173047] >> getIdeasList():[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29 12:30:48.412 SuggestApp[7907:173047] >> id == 81
+2016-01-29 12:30:48.412 SuggestApp[7907:173047] >> in SuggestDetailsService ...
+2016-01-29 12:30:48.412 SuggestApp[7907:173047] >>> in Details ...undefined
+2016-01-29 12:30:48.490 SuggestApp[7907:173047] >> getIdeas():[object Object]
+2016-01-29 12:30:48.490 SuggestApp[7907:173047] >> getIdeaDetails():[object Object]
+2016-01-29 12:30:52.444 SuggestApp[7907:173047] >>> in ExploreCtrl ...:undefined
+2016-01-29 12:30:52.530 SuggestApp[7907:173047] >> getIdeasList():[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29 12:30:52.530 SuggestApp[7907:173047] >> getIdeasList():[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29 12:30:55.322 SuggestApp[7907:173047] >> id == 81
+2016-01-29 12:30:55.322 SuggestApp[7907:173047] >>> in Details ...undefined
+2016-01-29 12:30:55.391 SuggestApp[7907:173047] >> getIdeaDetails():[object Object]
+2016-01-29 12:30:55.478 SuggestApp[7907:173047] >> getIdeas():[object Object]
+2016-01-29 12:30:57.013 SuggestApp[7907:173047] >>> in ExploreCtrl ...:undefined
+2016-01-29 12:30:57.048 SuggestApp[7907:173047] >> getIdeasList():[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29 12:30:57.071 SuggestApp[7907:173047] >> getIdeasList():[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29 12:30:58.127 SuggestApp[7907:173047] >> id == 83
+2016-01-29 12:30:58.127 SuggestApp[7907:173047] >>> in Details ...undefined
+2016-01-29 12:30:58.198 SuggestApp[7907:173047] >> getIdeas():[object Object]
+2016-01-29 12:30:58.198 SuggestApp[7907:173047] >> getIdeaDetails():[object Object]
+2016-01-29 12:31:00.075 SuggestApp[7907:173047] >>> in ExploreCtrl ...:undefined
+2016-01-29 12:31:00.428 SuggestApp[7907:173047] >> getIdeasList():[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29 12:31:00.428 SuggestApp[7907:173047] >> getIdeasList():[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29 12:31:02.968 SuggestApp[7907:173047] >> SplashCtrl - ... 
+2016-01-29 14:17:19.705 SuggestApp[7907:173047] >> SplashCtrl - doShowLogin() ... 
+2016-01-29 14:17:20.234 SuggestApp[7907:173047] >>> showLogin ... 
+2016-01-29 14:17:21.689 SuggestApp[7907:173047] >> SplashCtrl - doLogin() ... 
+2016-01-29 14:17:21.689 SuggestApp[7907:173047] >> loginCtrl - $scope.user:undefined
+2016-01-29 14:27:21.524 SuggestApp[9928:249534] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/70618792-6ECA-4CF9-948B-CA7CAD488D55/Library/Cookies/Cookies.binarycookies
+2016-01-29 14:27:21.583 SuggestApp[9928:249534] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2016-01-29 14:27:21.600 SuggestApp[9928:249534] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 14:27:21.671 SuggestApp[9928:249542] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2016-01-29 14:27:21.679 SuggestApp[9928:249542] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:69 :: {
+    "application id" = "com_ibm_SuggestApp";
+    "application version" = "1.0.0";
+    buildtime = 1454095631017;
+    environment = iphone;
+    host = "10.0.1.5";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/MobileFirstStarter/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "+rNCPnRLTr3lqiFfzvYQnA==";
+}
+2016-01-29 14:27:21.702 SuggestApp[9928:249534] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-29 14:27:21.712 SuggestApp[9928:249542] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2016-01-29 14:27:21.720 SuggestApp[9928:249534] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7b186f80>.
+2016-01-29 14:27:21.742 SuggestApp[9928:249542] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2016-01-29 14:27:21.932 SuggestApp[9928:249534] Apache Cordova native platform version 3.7.0 is starting.
+2016-01-29 14:27:21.932 SuggestApp[9928:249534] Multi-tasking -> Device: YES, App: YES
+2016-01-29 14:27:21.933 SuggestApp[9928:249534] Unlimited access to network resources
+2016-01-29 14:27:21.950 SuggestApp[9928:249534] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-29 14:27:22.075 SuggestApp[9928:249534] [CDVTimer][wlapp] 0.110030ms
+2016-01-29 14:27:22.075 SuggestApp[9928:249534] [CDVTimer][push] 0.051022ms
+2016-01-29 14:27:22.075 SuggestApp[9928:249534] [CDVTimer][TotalPluginStartup] 0.447989ms
+2016-01-29 14:27:22.096 SuggestApp[9928:249534] Resetting plugins due to page load.
+2016-01-29 14:27:22.357 SuggestApp[9928:249534] Finished load of: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Bundle/Application/75FE604D-103D-40E3-9BCA-93ED3C6F2289/SuggestApp.app/www/index.html#/app/splash
+2016-01-29 14:27:30.378 SuggestApp[9928:249534] log1
+2016-01-29 14:27:30.400 SuggestApp[9928:249539] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/08/06 20:32:27
+2016-01-29 14:27:30.603 SuggestApp[9928:249537] [DEBUG] [NONE] ondeviceready event dispatched
+2016-01-29 14:27:30.613 SuggestApp[9928:249539] [DEBUG] [NONE] Read cookies: null
+2016-01-29 14:27:30.617 SuggestApp[9928:249546] [DEBUG] [NONE] CookieMgr read cookies: {}
+2016-01-29 14:27:30.620 SuggestApp[9928:249536] [DEBUG] [NONE] wlclient init started
+2016-01-29 14:27:30.624 SuggestApp[9928:249682] [DEBUG] [NONE] before: initOptions.onSuccess
+2016-01-29 14:27:30.627 SuggestApp[9928:249683] [DEBUG] [NONE] after: initOptions.onSuccess
+2016-01-29 14:27:30.631 SuggestApp[9928:249688] [DEBUG] [NONE] added onPause and onResume event handlers
+2016-01-29 14:27:30.634 SuggestApp[9928:249689] [DEBUG] [NONE] wlclient init success
+2016-01-29 14:27:30.637 SuggestApp[9928:249690] [FATAL] [NONE] Uncaught Exception: Error: [ng:btstrpd] App Already Bootstrapped with this Element '&lt;body ng-app="starter" class="wl_ios7 grade-a platform-webview platform-cordova platform-ios platform-ios8 platform-ios8_1" style="display: block;"&gt;'
+http://errors.angularjs.org/1.4.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-app%3D%22starter%22%20class%3D%22wl_ios7%20grade-a%20platform-webview%20platform-cordova%20platform-ios%20platform-ios8%20platform-ios8_1%22%20style%3D%22display%3A%20block%3B%22%26gt%3B at (compiled_code):10446
+2016-01-30 11:12:44.622 SuggestApp[6620:142338] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/40E06495-0725-4685-BE9B-19F21C330326/Library/Cookies/Cookies.binarycookies
+2016-01-30 11:12:44.782 SuggestApp[6620:142338] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2016-01-30 11:12:44.802 SuggestApp[6620:142338] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-30 11:12:44.883 SuggestApp[6620:142338] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-01-30 11:12:44.900 SuggestApp[6620:142931] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2016-01-30 11:12:44.911 SuggestApp[6620:142338] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7b75d7e0>.
+2016-01-30 11:12:44.924 SuggestApp[6620:142931] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:69 :: {
+    "application id" = "com_ibm_SuggestApp";
+    "application version" = "1.0.0";
+    buildtime = 1454170348185;
+    environment = iphone;
+    host = "10.0.1.5";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/MobileFirstStarter/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "+rNCPnRLTr3lqiFfzvYQnA==";
+}
+2016-01-30 11:12:44.966 SuggestApp[6620:142931] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2016-01-30 11:12:44.977 SuggestApp[6620:142931] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2016-01-30 11:12:45.423 SuggestApp[6620:142338] Apache Cordova native platform version 3.7.0 is starting.
+2016-01-30 11:12:45.423 SuggestApp[6620:142338] Multi-tasking -> Device: YES, App: YES
+2016-01-30 11:12:45.432 SuggestApp[6620:142338] Unlimited access to network resources
+2016-01-30 11:12:45.448 SuggestApp[6620:142338] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-01-30 11:12:45.580 SuggestApp[6620:142338] [CDVTimer][wlapp] 0.894010ms
+2016-01-30 11:12:45.581 SuggestApp[6620:142338] [CDVTimer][push] 0.774980ms
+2016-01-30 11:12:45.581 SuggestApp[6620:142338] [CDVTimer][TotalPluginStartup] 2.098978ms
+2016-01-30 11:12:45.635 SuggestApp[6620:142338] Resetting plugins due to page load.
+2016-01-30 11:12:45.998 SuggestApp[6620:142338] Finished load of: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Bundle/Application/1C220BE5-05AA-47E7-91D9-C575D27BD65C/SuggestApp.app/www/index.html#/app/splash
+2016-01-30 11:12:54.638 SuggestApp[6620:142338] THREAD WARNING: ['WLApp'] took '11.734131' ms. Plugin should use a background thread.
+2016-01-30 11:12:54.645 SuggestApp[6620:142338] log1
+2016-01-30 11:12:54.660 SuggestApp[6620:142338] THREAD WARNING: ['DeviceAuth'] took '10.935059' ms. Plugin should use a background thread.
+2016-01-30 11:12:54.679 SuggestApp[6620:142923] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/08/06 20:32:27
+2016-01-30 11:12:54.891 SuggestApp[6620:143063] [DEBUG] [NONE] ondeviceready event dispatched
+2016-01-30 11:12:54.908 SuggestApp[6620:143065] [DEBUG] [NONE] wlclient init started
+2016-01-30 11:12:54.912 SuggestApp[6620:142925] [DEBUG] [NONE] Read cookies: null
+2016-01-30 11:12:54.915 SuggestApp[6620:143062] [DEBUG] [NONE] CookieMgr read cookies: {}
+2016-01-30 11:12:54.919 SuggestApp[6620:143064] [DEBUG] [NONE] before: initOptions.onSuccess
+2016-01-30 11:12:54.922 SuggestApp[6620:142926] [DEBUG] [NONE] after: initOptions.onSuccess
+2016-01-30 11:12:54.925 SuggestApp[6620:143066] [DEBUG] [NONE] added onPause and onResume event handlers
+2016-01-30 11:12:54.929 SuggestApp[6620:143067] [DEBUG] [NONE] wlclient init success
+2016-01-30 11:12:54.932 SuggestApp[6620:143068] [FATAL] [NONE] Uncaught Exception: Error: [ng:btstrpd] App Already Bootstrapped with this Element '&lt;body ng-app="starter" class="wl_ios7 grade-a platform-webview platform-cordova platform-ios platform-ios8 platform-ios8_1" style="display: block;"&gt;'
+http://errors.angularjs.org/1.4.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-app%3D%22starter%22%20class%3D%22wl_ios7%20grade-a%20platform-webview%20platform-cordova%20platform-ios%20platform-ios8%20platform-ios8_1%22%20style%3D%22display%3A%20block%3B%22%26gt%3B at (compiled_code):10446
+2016-02-10 11:36:07.966 SuggestApp[94535:5225626] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Data/Application/F89D66A0-EDB2-4906-A4AF-89F846C9D9B5/Library/Cookies/Cookies.binarycookies
+2016-02-10 11:36:08.138 SuggestApp[94535:5225626] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2016-02-10 11:36:08.159 SuggestApp[94535:5225626] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-02-10 11:36:08.237 SuggestApp[94535:5225626] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2016-02-10 11:36:08.250 SuggestApp[94535:5225724] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2016-02-10 11:36:08.263 SuggestApp[94535:5225626] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x78e1fe60>.
+2016-02-10 11:36:08.275 SuggestApp[94535:5225724] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:69 :: {
+    "application id" = "com_ibm_SuggestApp";
+    "application version" = "1.0.0";
+    buildtime = 1455122150887;
+    environment = iphone;
+    host = "10.0.1.5";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/MobileFirstStarter/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "+rNCPnRLTr3lqiFfzvYQnA==";
+}
+2016-02-10 11:36:08.299 SuggestApp[94535:5225724] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2016-02-10 11:36:08.313 SuggestApp[94535:5225724] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2016-02-10 11:36:08.707 SuggestApp[94535:5225626] Apache Cordova native platform version 3.7.0 is starting.
+2016-02-10 11:36:08.707 SuggestApp[94535:5225626] Multi-tasking -> Device: YES, App: YES
+2016-02-10 11:36:08.716 SuggestApp[94535:5225626] Unlimited access to network resources
+2016-02-10 11:36:08.733 SuggestApp[94535:5225626] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2016-02-10 11:36:08.860 SuggestApp[94535:5225626] [CDVTimer][wlapp] 0.733018ms
+2016-02-10 11:36:08.861 SuggestApp[94535:5225626] [CDVTimer][push] 0.640988ms
+2016-02-10 11:36:08.861 SuggestApp[94535:5225626] [CDVTimer][TotalPluginStartup] 1.652956ms
+2016-02-10 11:36:08.916 SuggestApp[94535:5225626] Resetting plugins due to page load.
+2016-02-10 11:36:09.795 SuggestApp[94535:5225626] Finished load of: file:///Users/eliran_pro/Library/Developer/CoreSimulator/Devices/54FC24B2-6F0F-4D35-A7BA-530920DEC8AF/data/Containers/Bundle/Application/C10C9F00-8CE7-4DCD-A355-DE9C42F591D7/SuggestApp.app/www/index.html#/app/splash
+2016-02-10 11:36:17.987 SuggestApp[94535:5225626] THREAD WARNING: ['WLApp'] took '10.227051' ms. Plugin should use a background thread.
+2016-02-10 11:36:17.994 SuggestApp[94535:5225626] log1
+2016-02-10 11:36:18.023 SuggestApp[94535:5225708] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/08/06 20:32:27
+2016-02-10 11:36:18.239 SuggestApp[94535:5225944] [DEBUG] [NONE] ondeviceready event dispatched
+2016-02-10 11:36:18.256 SuggestApp[94535:5225946] [DEBUG] [NONE] Read cookies: null
+2016-02-10 11:36:18.259 SuggestApp[94535:5225945] [DEBUG] [NONE] CookieMgr read cookies: {}
+2016-02-10 11:36:18.263 SuggestApp[94535:5225947] [DEBUG] [NONE] wlclient init started
+2016-02-10 11:36:18.266 SuggestApp[94535:5225726] [DEBUG] [NONE] after: initOptions.onSuccess
+2016-02-10 11:36:18.269 SuggestApp[94535:5225934] [DEBUG] [NONE] before: initOptions.onSuccess
+2016-02-10 11:36:18.273 SuggestApp[94535:5225950] [DEBUG] [NONE] added onPause and onResume event handlers
+2016-02-10 11:36:18.276 SuggestApp[94535:5225951] [DEBUG] [NONE] wlclient init success
+2016-02-10 11:36:18.279 SuggestApp[94535:5225952] [FATAL] [NONE] Uncaught Exception: Error: [ng:btstrpd] App Already Bootstrapped with this Element '&lt;body ng-app="starter" class="wl_ios7 grade-a platform-webview platform-cordova platform-ios platform-ios8 platform-ios8_1" style="display: block;"&gt;'
+http://errors.angularjs.org/1.4.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-app%3D%22starter%22%20class%3D%22wl_ios7%20grade-a%20platform-webview%20platform-cordova%20platform-ios%20platform-ios8%20platform-ios8_1%22%20style%3D%22display%3A%20block%3B%22%26gt%3B at (compiled_code):10446

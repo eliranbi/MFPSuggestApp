@@ -1,0 +1,32 @@
+<ion-view view-title="Suggest Idea">
+    <ion-content class="im-wrapper">
+        <h4>Tell us about your idea.</h4>
+        <div class="list">
+        <label class="item item-input">
+            <input type="text" placeholder="Title" ng-model="idea.title" class="inpSuggest">
+        </label>
+        
+        <label class="item item-input">            
+            <textarea placeholder="Tell us more. How would this help Deloitte?" ng-model="idea.description" rows="6" cols="50"  class="inpSuggest"></textarea>
+        </label>    
+            
+        <label class="item item-input">
+            <input type="text" placeholder="Tags" ng-model="idea.tags" class="inpSuggest">
+        </label>        
+        <!--    
+          <label class="item item-input">
+            <span class="input-label">Title</span>
+            <input type="text" ng-model="idea.title">
+          </label>          
+          <label class="item item-input">
+            <span class="input-label">Title</span>
+            <textarea placeholder="Tell us more. How would this help Deloitte?" ng-model="idea.description"></textarea>
+          </label>
+          <label class="item item-input">
+            <span class="input-label">Select a topic tag</span>
+            <input type="text" ng-model="idea.tags">
+          </label>    -->
+        </div>
+        <button class="button button-block button-calm" on-tap="doSubmit()">Submit Idea</button>                
+</ion-content> 
+</ion-view>

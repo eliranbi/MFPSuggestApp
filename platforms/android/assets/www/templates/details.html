@@ -1,0 +1,21 @@
+<ion-view class="" title="Details" hide-back-button="false" cache-view="false" hide-nav-bar="false">
+      <ion-content padding="true">     
+          <div class="list card">
+                  <div class="item item-avatar">
+                    <img src="img/{{idea.img}}">
+                    <div class="ideaTitle item item-text-wrap karla">{{idea.title}}</div>
+                    <div class="item ideaDesc item-text-wrap merriweather">{{idea.description}}</div>
+                    <h2 class="item-score-details">{{idea.score}}</h2>          
+                  </div>                  
+                  <div class="item tabs tabs-secondary tabs-icon-left">
+                    <a class="tab-item" href="#"><i class="icon ion-thumbsup"></i>Like</a>
+                    <a class="tab-item" href="#"><i class="icon ion-chatbox"></i>Comment</a>
+                    <a class="tab-item" href="#"><i class="icon ion-share"></i>Share</a>
+                  </div>
+            </div>      
+        <button class="button button-block button-balanced" on-tap="doVote()">Vote!</button>
+        <!--
+            <button class="button button-block button-positive" on-tap="doBack()">Back</button>
+        -->
+      </ion-content>        
+</ion-view>

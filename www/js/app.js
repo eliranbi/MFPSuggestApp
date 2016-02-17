@@ -9,13 +9,27 @@ app.run(function ($ionicPlatform) {
     $ionicPlatform.ready(function () {
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
         // for form inputs)
+        console.log(">>> in $ionicPlatform.ready() ...");
+        var os = {};
+        os.deviceInformation = ionic.Platform.device();
+        os.isWebView = ionic.Platform.isWebView();
+        os.isIPad = ionic.Platform.isIPad();
+        os.isIOS = ionic.Platform.isIOS();
+        os.isAndroid = ionic.Platform.isAndroid();
+        os.isWindowsPhone = ionic.Platform.isWindowsPhone();
+        os.currentPlatform = ionic.Platform.platform();
+        os.currentPlatformVersion = ionic.Platform.version();
+        
+        console.log(">>> OS :" +  JSON.stringify(os, null, "    ") );
+        console.log(">>> Screen Height:" + window.screen.height);                       
 
+        /*
         if (window.cordova && window.cordova.plugins.Keyboard) {
             cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
         }
         if (window.StatusBar) {
             StatusBar.styleDefault();
-        }
+        }*/
     });
 })
 

@@ -2,7 +2,7 @@
 <ion-view class="" title="" hide-nav-bar="true" cache-view="false" hide-back-button="true">    
   <ion-content scroll="false">
     <div class="item item-image">
-            <img src="img/bg-img.jpg" height="700px" class="bgImg">            
+            <img src="img/bg-img.jpg" height="800" class="bgImg" id="splashImg">            
     </div>          
     <!--<div class="signInMsg" id="signMsg">Sign into your account</div>-->
     <div class="col col-center splashMsg" id="splashMsg">
@@ -11,11 +11,11 @@
     </div>
     <!-- <div class="top-content row"></div> -->
     <center>
-      <div class="list overlay box" id="splash-next-box">
+      <div class="list overlay box" id="splash-next-box" style="display:none;">
                 <button class="button button-block button-energized-900" on-tap="doShowLogin()">Log In</button>
                 <button class="button button-block button-energized" ui-sref="auth.signup">Sign Up</button>            
       </div>      
-      <div class="list overlay lBox" id="login-box">        
+      <div class="list overlay lBox" id="login-box" style="display:none;">        
             <label class="item item-input rFont">
             <input type="text" placeholder="Enter your username" ng-model="user.username" class="rFont">
           </label>
@@ -23,10 +23,8 @@
             <input type="password" placeholder="Enter your password" ng-model="user.password" class="rFont">
           </label>      
           <button class="button icon-left ion-locked button-block button-positive button-small rFont rFont-login" type="submit" on-tap="doLogin()">Login</button>                      
-          <button class="button button-clear button-positive button-small rFont rFront-forgot">Frogot Password?</button>
-      </div>                         
-        
-        
+          <button class="button button-clear button-positive button-small rFont rFront-forgot">Forgot Password?</button>
+      </div>                                         
     </center>
     <!--<div class="bottom-content row"></div> -->
   </ion-content>
